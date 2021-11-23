@@ -173,13 +173,13 @@ echo '          <!-- /.card -->
                       };
           
                       if ($prazo_devolucao >= 75){
-                          $progress_class = "progress-bar bg-danger";
+                          $progress_class = "progress-bar bg-danger progress-bar-striped";
                       } else if ($prazo_devolucao >= 50){
-                          $progress_class = "progress-bar bg-warning"; 
+                          $progress_class = "progress-bar bg-warning progress-bar-striped"; 
                       } else if ($prazo_devolucao >= 25){
-                          $progress_class = "progress-bar bg-info";
+                          $progress_class = "progress-bar bg-info progress-bar-striped";
                       } else {
-                          $progress_class = "progress-bar bg-success"; 
+                          $progress_class = "progress-bar bg-success progress-bar-striped"; 
                       };                      
 
                       echo '<tr>';
@@ -200,7 +200,7 @@ echo '          <!-- /.card -->
                             </td>';
                       echo '<td class="text-right py-0 align-middle">
                               <div class="btn-group btn-group-sm">
-                                <a href="minhaslocacoes_livros.php?id='.$row['idemprestimo'].'" class="btn btn-primary"><i class="fas fa-book"></i></a> 
+                                <a href="minhaslocacoes_livros.php?id='.$row['idemprestimo'].'" class="btn btn-primary"><i class="fas fa-book"></i> Livros</a> 
                               </div>
                             </td>';
 

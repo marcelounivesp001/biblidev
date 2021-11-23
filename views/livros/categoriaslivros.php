@@ -181,8 +181,8 @@ echo '          <!-- /.card -->
                     echo '
                  <td class="text-right py-0 align-middle">
                     <div class="btn-group btn-group-sm">
-                      <a href="editcategorialivros.php?id='.$row['idcategoria'].'" class="btn btn-info"><i class="fas fa-edit"></i></a>
-                      <a data-id="'.$row['idcategoria'].'" class="btn btn-danger btn-delete_categoria_livro"><i class="fas fa-trash"></i></a>
+                      <a href="editcategorialivros.php?id='.$row['idcategoria'].'" class="btn btn-info"><i class="fas fa-edit"></i> Editar</a>
+                      <a data-id="'.$row['idcategoria'].'" class="btn btn-danger btn-delete_categoria_livro"><i class="fas fa-trash"></i> Deletar</a>
                       <!-- <a href="../../App/Database/deletecategorialivros.php?id='.$row['idcategoria'].'" class="btn btn-danger"><i class="fas fa-trash"></i></a> -->
                   <!--<a href="" class="btn btn-danger" data-toggle="modal" data-target="#modal-default" ><i class="fas fa-trash"></i></a> -->
                     </div>

@@ -195,13 +195,13 @@ echo '          <!-- /.card -->
                       };
           
                       if ($prazo_devolucao >= 75){
-                          $progress_class = "progress-bar bg-danger";
+                          $progress_class = "progress-bar bg-danger progress-bar-striped";
                       } else if ($prazo_devolucao >= 50){
-                          $progress_class = "progress-bar bg-warning"; 
+                          $progress_class = "progress-bar bg-warning progress-bar-striped"; 
                       } else if ($prazo_devolucao >= 25){
-                          $progress_class = "progress-bar bg-info";
+                          $progress_class = "progress-bar bg-info progress-bar-striped";
                       } else {
-                          $progress_class = "progress-bar bg-success"; 
+                          $progress_class = "progress-bar bg-success progress-bar-striped"; 
                       };                      
 
                       echo '<tr>';
@@ -222,13 +222,13 @@ echo '          <!-- /.card -->
                               </small>
                             </td>';
                       echo '<td>
-                              <button data-id="'.$row['idemprestimo'].'" class="btn btn-info btn-entrega_livros" '.$buttonEntregaLivrosDisabled.'><i class="fas fa-dolly-flatbed"></i>&nbsp;Entrega</button> 
-                              <button data-id="'.$row['idemprestimo'].'" class="btn btn-success btn-devolucao_livros" '.$buttonDevolucaoLivrosDisabled.'><i class="fas fa-flag-checkered"></i>&nbsp;Devolução</button>
+                              <button data-id="'.$row['idemprestimo'].'" class="btn btn-info btn-entrega_livros" '.$buttonEntregaLivrosDisabled.'><i class="fas fa-dolly-flatbed"></i> Entrega</button> 
+                              <button data-id="'.$row['idemprestimo'].'" class="btn btn-success btn-devolucao_livros" '.$buttonDevolucaoLivrosDisabled.'><i class="fas fa-flag-checkered"></i> Devolução</button>
                             </td>';                            
                       echo '<td class="text-right py-0 align-middle">
                               <div class="btn-group btn-group-sm">
-                                <a href="emprestimo_livros.php?id='.$row['idemprestimo'].'" class="btn btn-primary"><i class="fas fa-book"></i></a> 
-                                <a data-id="'.$row['idemprestimo'].'" class="btn btn-danger btn-delete_emprestimo"><i class="fas fa-trash"/></i></a>
+                                <a href="emprestimo_livros.php?id='.$row['idemprestimo'].'" class="btn btn-primary"><i class="fas fa-book"></i> Livros</a> 
+                                <a data-id="'.$row['idemprestimo'].'" class="btn btn-danger btn-delete_emprestimo"><i class="fas fa-trash"/></i> Deletar</a>
                                 <!-- <a href="editemprestimo.php?id='.$row['idemprestimo'].'" class="btn btn-info"><i class="fas fa-edit"/></i></a> -->
                                 <!-- <a href="../../App/Database/deleteemprestimo.php?id='.$row['idemprestimo'].'" class="btn btn-danger"><i class="fas fa-trash"/></i></a> -->
                               </div>

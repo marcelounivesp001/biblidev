@@ -180,8 +180,8 @@ echo '          <!-- /.card -->
                         echo '<td><strong>'.$ativo.'</strong></td>';
                         echo '<td class="text-right py-0 align-middle">
                                 <div class="btn-group btn-group-sm">
-                                  <a href="editusuario.php?id='.$row['iduser'].'" class="btn btn-info"><i class="fas fa-edit"></i></a>
-                                  <a data-id="'.$row['iduser'].'" class="btn btn-danger btn-delete_usuario"><i class="fas fa-trash"></i></a>
+                                  <a href="editusuario.php?id='.$row['iduser'].'" class="btn btn-info"><i class="fas fa-edit"></i> Editar</a>
+                                  <a data-id="'.$row['iduser'].'" class="btn btn-danger btn-delete_usuario"><i class="fas fa-trash"></i> Deletar</a>
                                   <!-- <a href="../../App/Database/deleteusuario.php?id='.$row['iduser'].'" class="btn btn-danger"><i class="fas fa-trash"></i></a> -->
 
                                 </div>
@@ -206,8 +206,8 @@ echo '          <!-- /.card -->
                         echo '<td>'.$ativo.'</td>';
                         echo '<td class="text-right py-0 align-middle">
                                 <div class="btn-group btn-group-sm">
-                                  <a href="editusuario.php?id='.$row['iduser'].'" class="btn btn-info"><i class="fas fa-edit"></i></a>
-                                  <a data-id="'.$row['iduser'].'" class="btn btn-danger btn-delete_usuario"><i class="fas fa-trash"></i></a>
+                                  <a href="editusuario.php?id='.$row['iduser'].'" class="btn btn-info"><i class="fas fa-edit"></i> Editar</a>
+                                  <a data-id="'.$row['iduser'].'" class="btn btn-danger btn-delete_usuario"><i class="fas fa-trash"></i> Deletar</a>
                                   <!-- <a href="../../App/Database/deleteusuario.php?id='.$row['iduser'].'" class="btn btn-danger"><i class="fas fa-trash"></i></a> -->
 
                                 </div>
